@@ -20,7 +20,7 @@
             --input-color:  #080f4e;
             --body-color:  #f7f7f7;
             --scroll-bar-color:  #040a06;
-            --scroll-thumb-color:  #1f462c;
+            --scroll-thumb-color:  #000000;    /* Configuração de Cor anterior #1f462c*/
             --container-color: #363636; 
 
 
@@ -81,6 +81,7 @@
             box-sizing: border-box;
             padding: 0;
             margin: 0;
+            overflow-x: hidden;
 
 
             
@@ -88,6 +89,7 @@
 
         html {
             scroll-behavior: smooth;
+            
         }
 
         body {
@@ -1369,7 +1371,7 @@
         padding: 3rem 0 3.5rem;
     }
     .footer__links {
-        flex-direction: row;
+        flex-direction: column;
         column-gap: 2rem;
     }
     .footer__socials {
